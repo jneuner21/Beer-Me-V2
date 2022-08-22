@@ -25,13 +25,17 @@ Useage is simple and fairly straight forward. Once you have navigated to the web
 
 
 ## Credit
-
-NA
+Glimm Forest by Ludwigs Steirische Gaudi
 
 ## Features
 - HTML 5
 - CSS
 - JavaScript
+
+-Over 300 beers to select from  
+-Options for alchol content and bitterness  
+-Ability to save and display up to 3 beers  
+-Beer ordering translation from over 65 fake languages
 
 ## Questions
 
@@ -48,3 +52,6 @@ NA
 
     NA
 
+## How to Contribute
+
+No contribution necessary but feedback is always welcome
