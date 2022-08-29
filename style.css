@@ -3,12 +3,19 @@
   padding: 0;
 }
 
-.body{
-  font-family: 'Germania One', cursive;
+.slider{
+  width: 40%;
+  margin-left: 30%;
+}
+
+.btn {
+  background-color: #ffb449;
 }
 
 .animation-area{
-  background-image: linear-gradient( to left,#29b6f6, #0084ff);
+  background-position: center center;
+  background-image: linear-gradient(#ffb449, #fddd5c, #ffb449);
+  font-family: 'Germania One', cursive;
   width: 100%;
   height: 100vh;
 }
@@ -23,6 +30,7 @@
 }
 
 .box-area li{
+  border-radius: 50%;
   position: absolute;
   display: block;
   list-style: none;
@@ -39,23 +47,6 @@
   height: 80px;
   animation-delay: 0s;
 }
-
-.beer-me-logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-
-.beer-me-logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-
 
 .box-area li:nth-child(5) {
   left: 65%;
@@ -97,5 +88,4 @@
 }
 
 audio{
-  display: none;
 }

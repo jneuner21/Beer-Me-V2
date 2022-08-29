@@ -22,42 +22,42 @@
         width="20%"
       />
     </header>
-    <p class="text-center text-white text-center">
+    <p class="fs-2 text-center text-white">
       So what'll it be?
     </p>
     <div class="col-12">
       <p class="text-center">
         How strong do you want your beer?
       </p>
-      <p class="text-center">ABV%</p>
-      <input
-        type="range"
-        min="0"
-        max="15"
-        value=""
-        class="slider d-flex justify-content-center"
-        id="ABV"
-      />
-      <br />
-      <br />
-      <p class="text-center">
-        How bitter do you want your beer?
-      </p>
-      <p class="d-flex justify-content-center">IBU</p>
       <input
         type="range"
         min="0"
         max="150"
         value=""
-        class="slider d-flex justify-content-center mb-5"
+        class="slider"
         id="IBU"
       />
+      <p class="d-flex justify-content-center">IBU</p>
+      <br>
+      <p class="text-center">
+        How bitter do you want your beer?
     </div>
+      <input
+        type="range"
+        min="0"
+        max="150"
+        value=""
+        class="slider"
+        id="IBU"
+      />
+      <p class="text-center">ABV%</p>
+      <br>
+      <br>
     <div class="col-md-12 text-center mb-5">
-      <button id="submitButton" type="button" class="btn btn-outline-danger">
+      <button id="submit-button" type="button" class="btn btn-outline-danger">
         Submit
       </button>
-      <button id="randomButton" type="button" class="btn btn-outline-primary">
+      <button id="random-button" type="button" class="btn btn-outline-primary">
         Random
       </button>
     <ul class="box-area">
@@ -73,7 +73,7 @@
   </div>
 
 <!-- Audio display is hidden in CSS-->
-  <audio controls autoplay loop>
+  <audio class"position-absolute bottom-0 start-0" controls autoplay loop>
     <source src="references\Ludwigs-Steirische-Gaudi-Glimm Forest.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
   </audio>
