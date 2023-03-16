@@ -37,24 +37,25 @@
         max="150"
         value=""
         class="slider"
-        id="IBU"
+        id="IBU1"
       />
       <p class="d-flex justify-content-center">IBU</p>
       <br>
       <p class="text-center">
         How bitter do you want your beer?
-    </div>
+      </p>
       <input
         type="range"
         min="0"
         max="150"
         value=""
         class="slider"
-        id="IBU"
+        id="IBU2"
       />
       <p class="text-center">ABV%</p>
       <br>
       <br>
+    </div>
     <div class="col-md-12 text-center mb-5">
       <button id="submitBtn" type="button" class="btn btn-outline-danger">
         Submit
@@ -62,12 +63,28 @@
       <button id="randomBtn" type="button" class="btn btn-outline-primary">
         Random
       </button>
-  </div>
+    </div>
+
+
+<!--THIS IS THE CODE FOR THE BUBBLES-->
+<div class="area" >
+  <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+  </ul>
+</div >
 
 <!-- Audio display is hidden in CSS-->
-  <audio class"position-absolute bottom-0 start-0" controls autoplay loop>
-    <source src="references\Ludwigs-Steirische-Gaudi-Glimm Forest.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</body>
-</html>
+<audio controls autoplay>
+  <source src="references\Ludwigs-Steirische-Gaudi-Glimm Forest.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
